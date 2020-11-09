@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gestion</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>IPS CECEP</h1>   
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="panel-group">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a id="inicio" class="nav-link" href="index.html">Inicio <span class="sr-only">(Actual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a id="reg" class="nav-link" href="#">Registrarse</a>
+                    </li>
+                    <li class="nav-item">
+                      <a id="login" class="nav-link" href="#">Iniciar sesion</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+
+          <div class="card mb-3">
+            <img class="card-img-top" src="https://www.nuevaeps.com.co/sites/default/files/styles/banner_escritorio/public/imagenes/banners/HOME-IPS%20peso.jpg?h=dc908731&itok=zXkS9b8B" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><b>Encuentra todo lo que tu IPS necesita</b></h5>
+            </div>
+          </div>
+
+        <div class="panel-group hide" id="contenedor"><div class="panel panel-primary">
+            <div class="panel-heading" id="titulo"></div>
+                <div class="panel-body">
+                    
+                    <div class="form-group" id="contenido">        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <p><b>Contactenos</b></p>
+            <p><b>Tel: </b>(1) 018000623</p>
+            <p><b>Correo: </b>ipscecep@soporte.com</p>
+        </div>
+    </div>
+    <input type="hidden" id="pagina" value="index" name="editar"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- Librearía para las funcionalidades de la tabla -->
+    <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.11/js/dataTables.bootstrap.min.js"></script>
+    <!-- Librería para las alertas -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.28.2/sweetalert2.all.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+ 
+    <script src="js/funcionesIPS.js"></script>
+    <script>
+        $(document).ready(IPS);
+    </script>
+</body>
+</html>
