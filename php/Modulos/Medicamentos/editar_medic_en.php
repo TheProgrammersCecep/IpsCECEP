@@ -31,5 +31,4 @@
     </div>
   </div>
 
-  <input type="hidden" id="editar" value="editar" name="accion"/>
 </form>
