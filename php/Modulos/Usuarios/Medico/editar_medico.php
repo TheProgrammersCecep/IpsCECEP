@@ -14,7 +14,7 @@
         <label for="validationTooltip04">Codigo</label>
         <input type="text" class="form-control" id="mcodigo" name="mcodigo" value = "" readonly="true"/>
         <br>
-        <label for="validationTooltip04">Empleado</label>
+        <label for="validationTooltip">Empleado</label>
         <input type="text" class="form-control" id="mmedico" name="mmedico"/>
         <br>
         <label for="validationTooltip04">Sede</label>
