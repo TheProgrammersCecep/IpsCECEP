@@ -1,0 +1,3 @@
+810,Medicina general,Tienes problemas de salud
+820,Pediatria,Tienes problemas con enfermedades en tus chicos
+830,Odontologia,tienes problemas con tus dientes
