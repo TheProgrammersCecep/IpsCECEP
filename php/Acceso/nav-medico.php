@@ -19,9 +19,9 @@
   </a>
   <div id="collapseMedicamentos" class="collapse" aria-labelledby="headingMedicamentos" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
-      <a class="collapse-item" href="#">Recetar Medicamentos</a>
-      <a class="collapse-item" href="#">Entrega Medicamentos</a>
-      <a class="collapse-item" href="#">Inventario Medicamentos</a>
+      <a class="collapse-item" href="php/Modulos/Medicamentos/recetar_medic.php">Recetar Medicamentos</a>
+      <a class="collapse-item" href="php/Modulos/Medicamentos/entrega_medic.php">Entrega Medicamentos</a>
+      <a class="collapse-item" href="php/Modulos/Medicamentos/medicamento.php">Inventario Medicamentos</a>
     </div>
   </div>
 </li>

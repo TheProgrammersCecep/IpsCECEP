@@ -17,11 +17,16 @@ switch ($_POST['accion']){
                 'respuesta' => 'no existe'
             );
         }  else {
-            if(password_verify($datos['password'],$usuario->getUsua_pass())){
+            if($datos['password']==$usuario->getUsua_pass()){
                 session_start();
+                $_SESSION['pass'] = $usuario->getUsua_pass();
+                $_SESSION['codigo'] = $usuario->getUsua_codigo();
                 $_SESSION['usuario'] = $usuario->getUsuario();
                 $_SESSION['nombre'] = $usuario->getUsua_nombre();
                 $_SESSION['tipo'] = $usuario->getUsua_tipo();
+                $_SESSION['cedula'] = $usuario->getUsua_cedula();
+                $_SESSION['correo'] = $usuario->getUsua_correo();
+                $_SESSION['celular'] = $usuario->getUsua_cel();
                 $respuesta = array(
                     'respuesta' =>'existe'
                 );

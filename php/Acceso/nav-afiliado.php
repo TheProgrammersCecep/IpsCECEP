@@ -5,8 +5,9 @@
   </a>
   <div id="collapseCitas" class="collapse" aria-labelledby="headingCitas" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
-      <a class="collapse-item" href="php/Modulos/crear_citas.php">Crear Citas</a>
-      <a class="collapse-item" href="#">Historial de citas</a>
+      <a class="collapse-item" href="php/Modulos/Citas/crear_citas.php">Crear Cita</a>
+      <a class="collapse-item" href="php/Modulos/Citas/citas_usuario.php">Mis Citas</a>
+      <a class="collapse-item" href="php/Modulos/Citas/historial_cita.php">Historial Citas</a>
     </div>
   </div>
 </li>
@@ -20,9 +21,7 @@
   </a>
   <div id="collapseServicios" class="collapse" aria-labelledby="headingServicios" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
-      <a class="collapse-item" href="#">Medicos</a>
-      <a class="collapse-item" href="#">Especialistas</a>
-      <a class="collapse-item" href="#">Odontologia</a>
+      <a class="collapse-item" href="php/Modulos/Servicios/servicio.php">Servicios Ips</a>
     </div>
   </div>
 </li>

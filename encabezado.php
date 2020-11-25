@@ -5,7 +5,7 @@
 <div id="content">
 
 
-<!-- Barra izquierda de navegacion -->
+<!-- Barra izquierda navegacion -->
 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
 
