@@ -10,7 +10,7 @@
         <div class="sidebar-brand-text mx-3">IPS GESTION</div>
       </a>
 
-      <!-- Divider -->
+      <!-- Divider navegacion -->
       <hr class="sidebar-divider my-0">
 
       <!-- Inicio -->
