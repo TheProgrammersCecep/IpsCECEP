@@ -34,9 +34,7 @@
   </a>
   <div id="collapseServicios2" class="collapse" aria-labelledby="headingServicios2" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
-      <a class="collapse-item" href="#">Medicos</a>
-      <a class="collapse-item" href="#">Especialistas</a>
-      <a class="collapse-item" href="#">Odontologia</a>
+      <a class="collapse-item" href="php/Modulos/Medicos/medico.php">Medicos</a>
     </div>
   </div>
 </li>
