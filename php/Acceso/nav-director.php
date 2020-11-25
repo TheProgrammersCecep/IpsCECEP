@@ -5,8 +5,8 @@
   </a>
   <div id="collapseUsuarios3" class="collapse" aria-labelledby="headingUsuarios3" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
-      <a class="collapse-item" href="#">Empleados</a>
-      <a class="collapse-item" href="#">Medicos</a>
+      <a class="collapse-item" href="php/Modulos/Usuarios/empleados.php">Empleados</a>
+      <a class="collapse-item" href="php/Modulos/Usuarios/medicos.php">Medicos</a>
     </div>
   </div>
 </li>
@@ -20,9 +20,7 @@
   </a>
   <div id="collapseServicios3" class="collapse" aria-labelledby="headingServicios3" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
-      <a class="collapse-item" href="#">Con Medico</a>
-      <a class="collapse-item" href="#">Con Especialista</a>
-      <a class="collapse-item" href="#">Con Odontologia</a>
+      <a class="collapse-item" href="php/Modulos/Servicios/servicio.php">Servicio ips</a>
     </div>
   </div>
 </li>
