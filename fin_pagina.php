@@ -2,7 +2,7 @@
       <footer class="sticky-footer bg-white">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright &copy; IPS CECEP 2020</span>
+              <span>Copyright &copy; IPSCECEP 2020</span>
             </div>
           </div>
         </footer>
