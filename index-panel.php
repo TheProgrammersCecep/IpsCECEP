@@ -39,7 +39,7 @@
       </div>
 
       <div class="contenedor-paginas">
-        <!-- CONTENIDO PAGINAS -->
+        <!-- CONTENIDO DE PAGINAS -->
       </div>
 
     <?php include_once ('fin_pagina.php'); ?>
