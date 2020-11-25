@@ -1,5 +1,7 @@
 <?php include_once ("php/sesiones.php"); ?>
 
+<ul class="navbar-nav bg-gradient-navbar sidebar sidebar-dark accordion" id="accordionSidebar">
+
       <!-- Titulo bara de navegacion -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index-panel.php">
         <div class="sidebar-brand-icon rotate-n-15">
@@ -34,6 +36,18 @@
       <?php include_once ("php/Acceso/nav-medico.php"); ?>
       <?php include_once ("php/Acceso/nav-usuario.php"); ?>
 
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePerfil" aria-expanded="true" aria-controls="collapsePerfil">
+          <i class="fa fa-cogs"></i>
+          <span>Perfil</span>
+        </a>
+        <div id="collapsePerfil" class="collapse" aria-labelledby="headingPerfil" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="php/Modulos/Perfil/perfil.php">Actualizar</a>
+          </div>
+        </div>
+      </li>
+
         <!-- Divisor -->
       <hr class="sidebar-divider">
 
@@ -47,4 +61,4 @@
 <!-- Ionicons -->
 <link rel="stylesheet" href="./Recursos/css/ionicons.min.css">
 
-
+</ul>
