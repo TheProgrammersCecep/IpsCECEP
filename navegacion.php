@@ -7,10 +7,10 @@
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">IPS GESTION</div>
+        <div class="sidebar-brand-text mx-3">IPS GESTIONADOR</div>
       </a>
 
-      <!-- Divider navegacion -->
+      <!-- Divider -->
       <hr class="sidebar-divider my-0">
 
       <!-- Inicio -->
