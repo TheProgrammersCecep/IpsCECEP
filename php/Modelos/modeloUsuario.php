@@ -6,7 +6,8 @@
         private $usuario;
 		private $usua_nombre;
         private $usua_pass;
-        private $usua_tipo;
+		private $usua_tipo;
+		private $usua_cedula;
 		
 		function __construct() {
 			//$this->db_name = '';
@@ -34,13 +35,25 @@
 			return $this->usua_tipo;
 		}
 
+		public function getUsua_cedula(){
+			return $this->usua_cedula;
+		}
+
+		public function getUsua_correo(){
+			return $this->correo;
+		}
+
+		public function getUsua_cel(){
+			return $this->usua_cel;
+		}
+
 		
 		public function consultar($datos = array()) {
 			
 			$usuario = $datos['usuario'];
 			$password = $datos['password'];
             $this->query = "
-            SELECT usua_codigo, usuario, usua_pass, usua_nombre, usua_tipo
+            SELECT usua_codigo, usua_cedula, usua_cel, usuario, correo, usua_pass, usua_nombre, usua_tipo
 			FROM dt_usuario 
 			WHERE usuario = '$usuario'
 			";
@@ -52,6 +65,10 @@
 					$this->$propiedad = $valor;
 				endforeach;
 			endif;
+		}
+
+		public function lista(){
+			
 		}
 		
         
