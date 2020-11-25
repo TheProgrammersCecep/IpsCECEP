@@ -1,0 +1,4 @@
+1,Cali,Colombia
+2,Palmira,Colombia
+5,Cerrito,Colombia
+6,Buga,Colombia
