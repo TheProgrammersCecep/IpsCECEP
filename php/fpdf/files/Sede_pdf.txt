@@ -1,0 +1,2 @@
+1,Unicentro Local 100,Cra. 100 #5-169,Cali,Colombia
+2,Alameda,Carrera 9a,Cali,Colombia
