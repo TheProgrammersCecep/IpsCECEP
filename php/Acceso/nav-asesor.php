@@ -5,7 +5,7 @@
   </a>
   <div id="collapseCitas2" class="collapse" aria-labelledby="headingCitas2" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
-      <a class="collapse-item" href="#">Crear Citas</a>
+      <a class="collapse-item" href="php/Modulos/Citas/crea_citas.php">Crear Citas</a>
       <a class="collapse-item" href="#">Historial de Citas</a>
     </div>
   </div>
