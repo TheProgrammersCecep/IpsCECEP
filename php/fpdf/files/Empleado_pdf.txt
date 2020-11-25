@@ -1,0 +1,6 @@
+1010,Sebastian Perez,Doctor,Unicentro Local 100,Cali,Colombia
+1011,Marily Gonzalez,Odontologia,Unicentro Local 100,Cali,Colombia
+1012,Mateo Erazo,Cirujano,Unicentro Local 100,Cali,Colombia
+1013,Miguel Gomez,Cardiologo,Unicentro Local 100,Cali,Colombia
+1014,Sebastian Salinas,Psiquiatra,Unicentro Local 100,Cali,Colombia
+1016,Jose Luis,Admin,Alameda,Cerrito,Colombia
