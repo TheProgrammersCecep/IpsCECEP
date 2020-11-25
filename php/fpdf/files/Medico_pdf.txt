@@ -1,0 +1,3 @@
+3,Diana Ruiz,Unicentro Local 100,Cali,Colombia
+1,Diego Diaz,Alameda,Cali,Colombia
+2,Jorge Huila,Alameda,Cali,Colombia
